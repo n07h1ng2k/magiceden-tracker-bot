@@ -17,36 +17,12 @@ https://www.youtube.com/watch?v=TvMOD3AKkXo&ab_channel=Nitr0z
 
 ---
 
-### (Server 🎛️) Node Installation on Ubuntu 
+### Installation on Windows 
 
-You can easily install Node.js and npm using apt install by running the following commands:
+You can download Node.js here:
+https://nodejs.org/en/download
 
-```
-sudo apt install nodejs
-sudo apt install npm
-```
-
-### (Server 🎛️) Yarn Installation
-
-After installing Node.js, install yarn using the following command:
-
-```
-npm install -g yarn
-```
-
----
-
-## (Server & Localhost 💻) Project Installation
-
-Clone the repository, navigate to the project directory and install all dependencies using yarn: 
-
-```
-git clone https://github.com/Nitr0z/nft-tracker-bot
-cd nft-tracker-bot
-yarn install
-```
-
-## (Server 🎛️ & Localhost 💻) Edit Your Settings
+## Edit Your Settings
 
 Edit your information in token.js and index.js file:
 
@@ -62,16 +38,7 @@ CollectionAddress
 DiscordChannel
 ```
 
-## (Server 🎛️) Install PM2 to Launch the Bot
-
-Install PM2 using npm to launch the bot: 
-
-```
-sudo npm install pm2 -g
-pm2 start index.js
-```
-
-## (Localhost 💻) Launch the Bot
+## Launch the Bot
 
 Use the following command to launch the bot on your localhost:
 
