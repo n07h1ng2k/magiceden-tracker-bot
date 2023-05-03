@@ -1,4 +1,4 @@
-# Automated NFT Sales Tracking Bot
+# Automated NFT Sales Tracking Bot 🤖
 
 This is a Discord bot designed to track NFT sales in various platforms like Opensea, Magic Eden, Gem, etc. It's an open-source project built on Node.js which enables you to display an embed on your Discord server every time there is a purchase on your desired collection. 
 
@@ -15,15 +15,38 @@ Watch the following tutorial video to get started:
 
 https://www.youtube.com/watch?v=TvMOD3AKkXo&ab_channel=Nitr0z
 
+---
 
-## Installation on Windows 
+### (Server 🎛️) Node Installation on Ubuntu 
 
-You can download Node.js here:
+You can easily install Node.js and npm using apt install by running the following commands:
+
 ```
-https://nodejs.org/en/download
+sudo apt install nodejs
+sudo apt install npm
 ```
 
-## Edit Your Settings
+### (Server 🎛️) Yarn Installation
+
+After installing Node.js, install yarn using the following command:
+
+```
+npm install -g yarn
+```
+
+---
+
+## (Server & Localhost 💻) Project Installation
+
+Clone the repository, navigate to the project directory and install all dependencies using yarn: 
+
+```
+git clone https://github.com/Nitr0z/nft-tracker-bot
+cd nft-tracker-bot
+yarn install
+```
+
+## (Server 🎛️ & Localhost 💻) Edit Your Settings
 
 Edit your information in token.js and index.js file:
 
@@ -39,7 +62,16 @@ CollectionAddress
 DiscordChannel
 ```
 
-## Launch the Bot
+## (Server 🎛️) Install PM2 to Launch the Bot
+
+Install PM2 using npm to launch the bot: 
+
+```
+sudo npm install pm2 -g
+pm2 start index.js
+```
+
+## (Localhost 💻) Launch the Bot
 
 Use the following command to launch the bot on your localhost:
 
