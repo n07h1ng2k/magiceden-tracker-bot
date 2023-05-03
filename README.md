@@ -1,4 +1,4 @@
-# Automated NFT Sales Tracking Bot 🤖
+# Automated NFT Sales Tracking Bot
 
 This is a Discord bot designed to track NFT sales in various platforms like Opensea, Magic Eden, Gem, etc. It's an open-source project built on Node.js which enables you to display an embed on your Discord server every time there is a purchase on your desired collection. 
 
@@ -19,7 +19,9 @@ https://www.youtube.com/watch?v=TvMOD3AKkXo&ab_channel=Nitr0z
 ## Installation on Windows 
 
 You can download Node.js here:
+```
 https://nodejs.org/en/download
+```
 
 ## Edit Your Settings
 
