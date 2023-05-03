@@ -15,9 +15,8 @@ Watch the following tutorial video to get started:
 
 https://www.youtube.com/watch?v=TvMOD3AKkXo&ab_channel=Nitr0z
 
----
 
-### Installation on Windows 
+## Installation on Windows 
 
 You can download Node.js here:
 https://nodejs.org/en/download
